@@ -38,32 +38,32 @@ C)HOURLY TREND FOR ORDERS
   GROUP BY DATEPART(HOUR, order_time)
   ORDER BY DATEPART(HOUR, order_time)
   
-D)% of Sales by Pizza Category
+D)% OF SALES BY PIZZA CATEGORY
   SELECT pizza_category, CAST(SUM(total_price) AS DECIMAL(10,2)) as total_revenue,
   CAST(SUM(total_price) * 100 / (SELECT SUM(total_price) from pizza_sales) AS DECIMAL(10,2)) AS PCT
   FROM pizza_sales
   GROUP BY pizza_category
   
-E)% of Sales by Pizza Size
+E)% OF SALES BY PIZZA SIZE
   SELECT pizza_size, CAST(SUM(total_price) AS DECIMAL(10,2)) as total_revenue,
   CAST(SUM(total_price) * 100 / (SELECT SUM(total_price) from pizza_sales) AS DECIMAL(10,2)) AS PCT
   FROM pizza_sales
   GROUP BY pizza_size
   ORDER BY pizza_size
   
-F)Total Pizzas Sold by Pizza Category
+F)TOTAL PIZZAS SOLD BY PIZZA CATEGORY
   SELECT pizza_category, SUM(quantity) as Total_Quantity_Sold
   FROM pizza_sales
   GROUP BY pizza_category
   ORDER BY Total_Quantity_Sold DESC
   
-G)Top 5 Best Sellers by Total Pizzas Sold
+G)TOP 5 BEST SELLERS BY TOTAL PIZZAS SOLD
   SELECT Top 5 pizza_name, SUM(quantity) AS Total_Pizza_Sold
   FROM pizza_sales
   GROUP BY pizza_name
   ORDER BY Total_Pizza_Sold DESC
   
-H)Bottom 5 Best Sellers by Total Pizzas Sold
+H)BOTTOM 5 BEST SELLERS BY TOTAL PIZZAS SOLD
   SELECT TOP 5 pizza_name, SUM(quantity) AS Total_Pizza_Sold
   FROM pizza_sales
   GROUP BY pizza_name

@@ -29,6 +29,21 @@ Geospatial Analysis: Visualizes sales data on a map to identify regional prefere
     
 **3.Access the Dashboard:**
     Open the [DASHBOARD.xlsx](https://github.com/Deepika425/PIZZA_SALES_ANALYSIS/commit/ff5944792bd4d8aa3ea5ee51cd200bf910f75a03) file.
+    
+
+# PIZZA SALES ANALYSIS DASHBOARD
+
+![PIZZA SALES ANALYSIS DASHBOARD](https://github.com/Deepika425/PIZZA_SALES_ANALYSIS/assets/136952395/94b753ce-5ffd-4534-88d3-b1315692e884)
+
+
+
+
+
+
+
+
+
+
 
 
 

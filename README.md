@@ -11,4 +11,3 @@ Customer Segmentation: Segments customers based on demographics and purchasing b
 Geospatial Analysis: Visualizes sales data on a map to identify regional preferences and potential expansion opportunities.
 
 
-|SNo| Topic| Sub Topic| Link|

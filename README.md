@@ -21,5 +21,7 @@ Geospatial Analysis: Visualizes sales data on a map to identify regional prefere
 # GETTING STARTED
 
 **1.Data Analysis with SQL:**
-    The dat analysis was conducted using SQL. The SQL scripts and queries used for data extraction, transformation and  loading can be found in the pizza_sales_analysis_queries.sql
+    The dat analysis was conducted using SQL. The SQL scripts and queries used for data extraction, transformation and  loading can be found in the [pizza_sales_analysis_queries.sql](https://github.com/Deepika425/PIZZA_SALES_ANALYSIS/commit/eac35b038320e6fee9957f4e6f22418de1450407)
 
+**2.Creating Dashboard with Excel:**
+    

@@ -18,3 +18,7 @@ Customer Segmentation: Segments customers based on demographics and purchasing b
 
 Geospatial Analysis: Visualizes sales data on a map to identify regional preferences and potential expansion opportunities.
 
+**GETTING STARTED**
+
+**1.Data Analysis with SQL:**
+    The dat analysis was conducted using SQL. The SQL scripts and queries used for data extraction, transformation and loading can be found in the pizza_sales_analysis_queries.sql

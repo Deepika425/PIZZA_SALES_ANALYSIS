@@ -1,8 +1,11 @@
 # PIZZA_SALES_ANALYSIS
+
 **OVERVIEW**
+
 This repository contains the Pizza Sales Analysis Dashboard, designed to visualize and analyze sales data for a pizza restaurant chain. The dashboard provides insights into various aspects of the business, including sales trends, popular pizza types, customer demographics, and more.
 
 **FEATURES**
+
 Interactive Visualizations: Utilizes advanced charting libraries to create interactive visualizations for easy data exploration.
 Customizable Filters: Allows users to filter data based on date range, pizza type, customer demographics, and other relevant parameters.
 Sales Trends: Provides insights into sales trends over time, enabling users to identify patterns and make informed decisions.
